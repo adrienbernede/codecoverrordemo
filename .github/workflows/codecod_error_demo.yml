@@ -6,6 +6,7 @@ on:
 
 jobs:
   codecov:
+    runs-on: ubuntu-18.04
     steps:
       - name: error_demo
         run: |
